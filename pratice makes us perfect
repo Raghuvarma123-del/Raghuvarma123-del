@@ -1,0 +1,16 @@
+#practice makes us perfect
+"""Chef decides to solve at least 10 problems every week for 4 weeks.
+Given the number of problems he actually solved in each week over 4 weeks as P1,P2,P3,P4.
+output the number of weeks in which Chef met his target."""
+
+a,b,c,d=map(int,input().split())
+count=0
+if a>=10:
+    count+=1
+if b>=10:
+    count+=1
+if c>=10:
+    count+=1
+if d>=10:
+    count+=1
+print(count)
